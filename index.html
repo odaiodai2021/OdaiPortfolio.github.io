@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/all.min.css">
+    <script src="https://kit.fontawesome.com/241bc4b752.js" crossorigin="anonymous"></script>
+    <title>Odai Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <img class="logo" src="images/logo.png" alt="logo">
+                <ul>
+                    <li>
+                        <a class="navLink" href="#about">About Me</a>
+                    </li>
+                    
+                    <li>
+                        <a class="navLink" href="#MyWork">My Works</a>
+                    </li>
+                    
+                    <li>
+                        <a class="navLink" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="about" id="about">
+                <div class="about1">
+                    <h5> 
+                        <i class="fa fa-pen-nib" style="color: #dd1f1f; margin: 10px;"></i>
+                        Documentary films director
+                    </h5>
+                    <p>
+                        Director of many documentaries and TV shows
+                    </p>
+                </div>
+                <div class="about1">
+                    <h5> 
+                        <i class="fa fa-magnifying-glass" style="color: #dd1f1f; margin: 10px;"></i> 
+                        Prepared and Researched 
+                    </h5>
+                    <p>
+                        Specialized in searching for ideas and preparing films and programs
+                    </p>
+                </div>
+                <div class="about1">
+                    <h5> <i class="fa fa-film" style="color: #dd1f1f; margin: 10px;"></i>
+                        Screenwriter and dialogue 
+                    </h5>
+                    <p>
+                        I wrote many scripts and dialogues For many companies
+                    </p>
+                </div>
+            </div>
+        </main>
+        <div class="vd">
+            <video autoplay muted loop id="myVideo">
+                <source src="videos/night.mov" type="video/mp4">
+            </video>
+        </div>
+            <!-- Container for the image gallery -->
+            <div class="slide" id="MyWork">
+
+                <section>
+                    <ul>
+                        <li class="list active" data-filter="all">All</li>
+                        <li class="list" data-filter="aljazeera">Al-jazeera</li>
+                        <li class="list" data-filter="roya">Roya</li>
+                        <li class="list" data-filter="others">Others</li>
+                    </ul>
+
+                    <!-- Up button -->
+                    <button onclick="topFunction()" id="top" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+                    <div class="chanels">
+
+                        <!-- 1 -->
+                        <a href="layouts/larbi.html" target="_blank">
+                            <div class="itemBox" data-item="aljazeera">
+                                <img src="./images/jsc/laarbi1.jpg" alt="" >
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 2 -->
+                        <a href="layouts/libya.html" target="_blank">
+                            <div class="itemBox" data-item="aljazeera">
+                                <img src="./images/jsc/lybia.jpg" alt="" title="Libya Balad 1"/>
+                                <div class="overlay">
+                                    Preparer, researcher, and logistics operations coordinator by Odai alslieti
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- 3 -->
+                        <a href="layouts/qadhafi.html" target="_blank">
+                            <div class="itemBox" data-item="aljazeera">
+                                <img src="./images/jsc/qadhafi.png" alt="">
+                                <div class="overlay">Idea, Preparer, researcher, and logistics operations coordinator by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 4 -->
+                        <a href="layouts/oqool.html" target="_blank">
+                            <div class="itemBox" data-item="roya">
+                                <img src="./images/roya/oqool.png" alt="">
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 5 -->
+                        <a href="layouts/seesaw.html" target="_blank">
+                            <div class="itemBox" data-item="roya">
+                                <img src="./images/roya/seesaw.png" alt="" >
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 6 -->
+                        <a href="layouts/qawim.html" target="_blank">
+                            <div class="itemBox" data-item="roya">
+                                <img src="./images/roya/qawim.png" alt="">
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 7 -->
+                        <a href="layouts/inji.html" target="_blank">
+                            <div class="itemBox" data-item="aljazeera">
+                                <img src="./images/inji/injiCover.png" alt="">
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 8 -->
+                        <a href="layouts/dahiya.html" target="_blank">
+                            <div class="itemBox" data-item="others">
+                                <img src="./images/dahiya.png" alt="">
+                                <div class="overlay">Preparer and researcher by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 9 -->
+                        <a href="layouts/mafqood.html" target="_blank">
+                            <div class="itemBox" data-item="aljazeera">
+                                <img src="./images/jsc/mafqoodBW.png" alt="">
+                                <div class="overlay">Idea, Formulating the idea by Odai alslieti</div>
+                            </div>
+                        </a>
+                        
+                        <!-- 10 -->
+                        <a href="layouts/plane.html" target="_blank">
+                            <div class="itemBox" data-item="others">
+                                <img src="./images/plane.png" alt="">
+                                <div class="overlay">Prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 11 -->
+                        <a href="layouts/fish.html" target="_blank">
+                            <div class="itemBox" data-item="roya">
+                                <img src="./images/roya/fish1.png" alt="" >
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 12 -->
+                        <a href="layouts/sabah1.html" target="_blank">
+                            <div class="itemBox" data-item="aljazeera">
+                                <img src="./images/jsc/sabah1.png" alt="" >
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 13 -->
+                        <a href="layouts/bachir.html" target="_blank">
+                            <div class="itemBox" data-item="aljazeera">
+                                <img src="./images/jsc/bachir.png" alt="" >
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 14 -->
+                        <a href="layouts/mofdi.html" target="_blank">
+                            <div class="itemBox" data-item="aljazeera">
+                                <img src="./images/jsc/mofdi.png" alt="">
+                                <div class="overlay"> Preparer and researcher by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 15 -->
+                        <a href="layouts/sitar.html" target="_blank">
+                            <div class="itemBox" data-item="roya">
+                                <img src="./images/roya/sitar.png" alt="">
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 16 -->
+                        <a href="layouts/irada.html" target="_blank">
+                            <div class="itemBox" data-item="roya">
+                                <img src="./images/roya/irada.png" alt="">
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 17 -->
+                        <a href="layouts/doctor.html" target="_blank">
+                            <div class="itemBox" data-item="others">
+                                <img src="./images/doctor.png" alt="">
+                                <div class="overlay">Idea formulation and directorial processing by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                        <!-- 18 -->
+                        <a href="layouts/sabah2.html" target="_blank">
+                            <div class="itemBox" data-item="aljazeera">
+                                <img src="./images/jsc/sabah2.png" alt="" >
+                                <div class="overlay">Idea, prepared and directed by Odai alslieti</div>
+                            </div>
+                        </a>
+
+                    </div>
+                </section>
+            </div>
+
+        <footer>
+            <h1 class="work" id="contact">Contact Me</h1>
+            <div class="boxes">
+                <div class="email">
+                    <p>
+                        <i class="fa fa-envelope"></i>
+                    </p>
+                    <p>
+                        <a href="mailto:odaialsalieti@gmail.com" target="_blank">
+                            odaialsalieti@gmail.com
+                        </a>
+                    </p>
+                </div>
+                <div class="mobile">
+                    <h3>
+                        <i class="fa fa-mobile-screen-button"></i>
+                    </h3>
+                    <p>
+                        +962-799-853-648
+                    </p>
+                </div>
+                <div class="adress">
+                    <h3>
+                        <i class="fa fa-map-location-dot"></i>
+                    </h3>
+                    <p>
+                        Jordan, Irbid 
+                    </p>
+                </div>
+            </div>
+            
+        </footer>
+        <script src="script/active.js"></script>
+        <script src="style/all.min.css"></script>
+</body>
+</html>
