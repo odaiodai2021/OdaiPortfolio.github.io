@@ -8,7 +8,6 @@ This is a portfolio of all my work in the field of media, in which I worked as a
 - Preparer.
 - Researcher.
 - Director.
-
 ...To view the site click <a href="https://odaiodai2021.github.io/" target="_blank" > Here </a>.
 
 All rights reserved © Odai Alsalieti
