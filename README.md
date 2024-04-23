@@ -1,5 +1,5 @@
 # Odai Alsalieti Portfolio :clapper:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo")
+![alt text](https://github.com/odaiodai2021/odaiodai2021.github.io/master/images/logo.png "Logo")
 
 ... This is a portfolio of all my work in the field of media, in which I worked as an 
 - Idea writer
