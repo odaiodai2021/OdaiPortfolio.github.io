@@ -7,7 +7,7 @@ This is a portfolio of all my work in the field of media, in which I worked as a
 - Script and dialogue writer.
 - Preparer.
 - Researcher.
-- Director.
+- Director. <br>
 ...To view the site click <a href="https://odaiodai2021.github.io/" target="_blank" > Here </a>.
 
 All rights reserved © Odai Alsalieti
